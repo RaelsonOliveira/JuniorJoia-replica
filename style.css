@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    
+}
+.logo1 {
+    height: 120px;
+    width: 150px;
+    justify-content: center;
+    margin: 8px;
+}
+.hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to left, transparent, #f5c62f, transparent);  
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #f5c62f;
+    font-size: 14px;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    position: relative;
+    font-size: 1rem;
+    color:#f5c62f ;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    transition: .5s ease;
+}
+.navbar a:hover {
+    text-decoration:underline;
+}
+
+.main-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-grow: 5;
+    flex-basis: 200px;
+
+}
+
+.produto p {
+    color: #f5c62f;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.produto img {
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px ;
+
+}
